@@ -16,19 +16,15 @@ export class AppService
 
     constructor()
     {
-        if (window.require)
+        try
         {
-            try
-            {
-                this._ipc = window.require('electron').ipcRenderer;
-                this.items = [];
-                this.onItemsChanged = new BehaviorSubject([]);
-            }
-            catch (error)
-            {
-                console.log(error)
-            }
-            
+            this._ipc =  window.require('electron').ipcRenderer;
+            this.items = [];
+            this.onItemsChanged = new BehaviorSubject([]);
+        }
+        catch (error)
+        {
+            console.log(error)
         }
     }
 

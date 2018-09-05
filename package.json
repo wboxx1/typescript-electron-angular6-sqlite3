@@ -1,5 +1,5 @@
 {
-  "name": "electron-angular-sqlite",
+  "name": "typescript-electron-angular6-sqlite3",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
