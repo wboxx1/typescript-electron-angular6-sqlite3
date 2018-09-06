@@ -1,6 +1,6 @@
 # Typescript Electron Angular Sqlite
 
-This project serves as an example of creating an electron app using angular and sqlite.  It uses electrons inter-process communication classes to pass information from the main process to the renderer process.
+This project serves as an example for creating an electron app using angular and sqlite.  It uses electron's inter-process communication classes to pass information from the main process to the renderer process.
 
 ## Setup
 
