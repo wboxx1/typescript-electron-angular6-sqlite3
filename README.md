@@ -4,9 +4,11 @@ This project serves as an example for creating an electron app using angular and
 
 ## Setup
 
-`git clone https://github.com/wboxx1/typescript-electron-angular6-sqlite3.git`
-`cd typescript-electron-angular6-sqlite3`
-`npm install`
+`
+git clone https://github.com/wboxx1/typescript-electron-angular6-sqlite3.git
+cd typescript-electron-angular6-sqlite3
+npm install
+`
 
 ## Build
 
